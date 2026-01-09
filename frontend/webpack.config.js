@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-    entry: "./src/index.js", // Your main JS file
+    entry: "./src/index.tsx", // Your main JS file
     output: {
         path: path.resolve(__dirname, "./static/frontend"),
         filename: "bundle.js",
@@ -12,7 +12,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/, // Process JS + JSX
+                test: /\.(tsx)$/, // Process TSX
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader"
@@ -31,7 +31,7 @@ module.exports = {
         }),
     ],
     resolve: {
-        extensions: [".js", ".jsx"] // Allow imports without extensions
+        extensions: [".js", ".jsx", ".tsx"] // Allow imports without extensions
     },
     devtool: "source-map", // Helpful for debugging
     devServer: {

@@ -6,15 +6,13 @@
 
 /*! ../pages/Settings */
 
-/*! ./cjs/react-dom-client.production.js */
+/*! ./cjs/react-dom.production.min.js */
 
-/*! ./cjs/react-dom.production.js */
+/*! ./cjs/react-jsx-runtime.production.min.js */
 
-/*! ./cjs/react-jsx-runtime.production.js */
+/*! ./cjs/react.production.min.js */
 
-/*! ./cjs/react.production.js */
-
-/*! ./cjs/scheduler.production.js */
+/*! ./cjs/scheduler.production.min.js */
 
 /*! ./router/AppRouter */
 
@@ -30,15 +28,15 @@
 
 /*! scheduler */
 
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/*!***********************!*\
+  !*** ./src/index.tsx ***!
+  \***********************/
 
 /**
  * @license React
- * react-dom-client.production.js
+ * react-dom.production.min.js
  *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -46,19 +44,9 @@
 
 /**
  * @license React
- * react-dom.production.js
+ * react-jsx-runtime.production.min.js
  *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/**
- * @license React
- * react-jsx-runtime.production.js
- *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -66,9 +54,9 @@
 
 /**
  * @license React
- * react.production.js
+ * react.production.min.js
  *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -76,9 +64,9 @@
 
 /**
  * @license React
- * scheduler.production.js
+ * scheduler.production.min.js
  *
- * Copyright (c) Meta Platforms, Inc. and affiliates.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
